@@ -1,0 +1,54 @@
+/* ======== STYLE GLOBAL ======== */
+
+body {
+  font-family: sans-serif;
+  background: #050816;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+/* ======== ZONE DU CHAT ======== */
+
+#chat {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+/* ======== BARRE D'ENTRÉE ======== */
+
+#input-zone {
+  display: flex;
+  padding: 10px;
+  background: #111827;
+}
+
+#msg {
+  flex: 1;
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+
+/* ======== BOUTON ======== */
+
+button {
+  margin-left: 8px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  background: #22c55e;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* ======== MESSAGES ======== */
+
+p {
+  margin: 4px 0;
+}
